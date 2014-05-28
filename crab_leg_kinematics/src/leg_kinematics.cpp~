@@ -1,0 +1,18 @@
+
+
+#include "ros/ros.h"
+//#include "std_msgs/String.h"
+//#include <sstream>
+#include <kdl_parser/kdl_parser.hpp>
+#include <kdl/tree.hpp>
+
+int main(int argc, char **argv)
+{
+	KDL::Tree my_tree;
+	ros::NodeHandle node;
+	std::string robot_desc_string;
+	node.param("robot_description", robot_desc_string, std::string("robot_description"));
+
+	return 0;
+}
+

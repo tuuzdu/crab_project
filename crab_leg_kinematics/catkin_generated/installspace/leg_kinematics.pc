@@ -1,0 +1,8 @@
+prefix=/home/tuuzdu/catkin_ws/install
+
+Name: leg_kinematics
+Description: Description of leg_kinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/tuuzdu/catkin_ws/install/lib 
+Requires: 

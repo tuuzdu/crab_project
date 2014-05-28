@@ -1,0 +1,29 @@
+<launch>
+  <arg
+    name="leg" />
+  <arg
+    name="gui"
+    default="True" />
+  <param
+    name="robot_description"
+    command="$(find xacro)/xacro.py '$(find crab_description)/models/crab_leg.xacro'" />
+  <param
+    name="use_gui"
+    value="$(arg gui)" />
+  <param
+    name="rate"
+    value="25" />
+  <node
+    name="joint_state_publisher"
+    pkg="joint_state_publisher"
+    type="joint_state_publisher" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="state_publisher" />
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find crab_description)/urdf.rviz" />
+</launch>

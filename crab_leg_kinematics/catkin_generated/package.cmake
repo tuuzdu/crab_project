@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "leg_kinematics")
+set(leg_kinematics_MAINTAINER "tuuzdu <tuuzdu@todo.todo>")
+set(leg_kinematics_DEPRECATED "")
+set(leg_kinematics_VERSION "0.0.0")
+set(leg_kinematics_BUILD_DEPENDS "kdl_parser" "roscpp" "rospy" "std_msgs")
+set(leg_kinematics_RUN_DEPENDS "kdl_parser" "roscpp" "rospy" "std_msgs")
+set(leg_kinematics_BUILDTOOL_DEPENDS "catkin")

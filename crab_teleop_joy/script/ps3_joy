@@ -1,0 +1,82 @@
+### BEGIN INIT INFO
+# Provides:          ps3joy
+# Required-Start:    
+# Required-Stop:     
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: starts instance of ps3joy.py
+# Description:       starts instance of pd3joy.py
+### END INIT INFO
+
+############### EDIT ME ##################
+
+#APP_PATH=""
+
+. /opt/ros/hydro/setup.sh
+export ROS_HOME=/root
+
+# path to daemon
+DAEMON=/opt/ros/hydro/lib/ps3joy/ps3joy.py
+
+# startup args
+DAEMON_OPTS="--inactivity-timeout=900"
+
+# script name
+NAME=ps3joy
+
+# app name
+DESC=ps3joy
+
+RUN_AS=root
+
+PID_FILE=/var/run/ps3joy.pid
+
+############### END EDIT ME ##################
+
+test -x $DAEMON || exit 0
+
+set -e
+
+case "$1" in
+  start)
+        echo -n "Starting $DESC: "
+
+        start-stop-daemon -c $RUN_AS --start --background --pidfile $PID_FILE  --make-pidfile -a $DAEMON -- $DAEMON_OPTS
+
+        if [ $? ]; then
+            echo "[OK]"
+        else
+            echo "[FAILED]"
+        fi
+
+        ;;
+  stop)
+        echo -n "Stopping $DESC: "
+        start-stop-daemon --stop --pidfile $PID_FILE
+        if [ $? ]; then
+            echo "[OK]"
+        else
+            echo "[FAILED]"
+        fi
+        ;;
+
+  restart|force-reload)
+        echo -n "Restarting $DESC: "
+        start-stop-daemon --stop --oknodo --pidfile $PID_FILE
+        sleep 1
+        start-stop-daemon -c $RUN_AS --start --background --pidfile $PID_FILE  --make-pidfile -a $DAEMON -- $DAEMON_OPTS
+        if [ $? ]; then
+            echo "[OK]"
+        else
+            echo "[FAILED]"
+        fi
+
+        ;;
+  *)
+        N=/etc/init.d/$NAME
+        echo "Usage: $N {start|stop|restart|force-reload}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0
