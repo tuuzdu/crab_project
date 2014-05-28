@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/install
+
+Name: crab_msgs
+Description: Description of crab_msgs
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/install/include
+Libs: -L/home/ubuntu/catkin_ws/install/lib 
+Requires: message_runtime

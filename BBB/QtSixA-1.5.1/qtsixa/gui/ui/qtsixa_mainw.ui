@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtSixAMainW</class>
+ <widget class="QMainWindow" name="QtSixAMainW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>462</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtSixA</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="devices">
+       <attribute name="title">
+        <string>Devices</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="font">
+              <font>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Welcome to QtSixA!</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="1" rowspan="2">
+         <widget class="QGroupBox" name="groupDevice">
+          <property name="title">
+           <string>Device Properties</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>&amp;Name:</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineName</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineName">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string notr="true">_DEV_NAME_</string>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>&amp;Type:</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineType</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lineType">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>_DEV_TYPE_</string>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string notr="true">&amp;ID:</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineID</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="lineID">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string notr="true">_DEV_ID_</string>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>&amp;Mode:</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineMode</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="lineMode">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string notr="true">_DEV_MODE_</string>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="0" rowspan="2">
+         <widget class="QListWidget" name="listOfDevices">
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>(no devices found)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">BT_8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">USB_1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">USB_2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">USB_3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">USB_4</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="1" rowspan="2">
+         <widget class="QGroupBox" name="groupBluetooth">
+          <property name="title">
+           <string>Bluetooth Properties</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>&amp;Address:</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineAddress</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineAddress">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string notr="true">XX:XX:XX:XX</string>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_LQ">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>Signal quality of the selected device</string>
+             </property>
+             <property name="text">
+              <string>Signal quality:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QProgressBar" name="barLQ">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>Signal quality of the selected device</string>
+             </property>
+             <property name="maximum">
+              <number>255</number>
+             </property>
+             <property name="value">
+              <number>0</number>
+             </property>
+             <property name="format">
+              <string notr="true">%p%</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_bat">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>Battery charge status of the selected Sixaxis</string>
+             </property>
+             <property name="text">
+              <string>Battery status:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QProgressBar" name="barBattery">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>Battery charge status of the selected Sixaxis</string>
+             </property>
+             <property name="maximum">
+              <number>5</number>
+             </property>
+             <property name="value">
+              <number>0</number>
+             </property>
+             <property name="format">
+              <string notr="true">%v/5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>&amp;Last time used:</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineDate</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="lineDate">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="3" column="0" rowspan="2">
+         <widget class="QGroupBox" name="groupActions">
+          <property name="title">
+           <string>Actions</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="1" column="0">
+            <widget class="QPushButton" name="b_disconnect">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>Disconnect the selected device</string>
+             </property>
+             <property name="text">
+              <string>&amp;Disconnect</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../icons/qtsixa.qrc">
+               <normaloff>:/icons/eject.png</normaloff>:/icons/eject.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QPushButton" name="b_battery">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>(Re)-Check the battery charge status of the selected Sixaxis</string>
+             </property>
+             <property name="text">
+              <string>Re-Check &amp;Battery</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../icons/qtsixa.qrc">
+               <normaloff>:/icons/battery.png</normaloff>:/icons/battery.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="b_disconnect_all">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="statusTip">
+              <string>Disconnect the selected device</string>
+             </property>
+             <property name="text">
+              <string>Disconnect &amp;All</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../icons/qtsixa.qrc">
+               <normaloff>:/icons/eject.png</normaloff>:/icons/eject.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QPushButton" name="b_rumble">
+             <property name="text">
+              <string>Test &amp;Rumble</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../icons/qtsixa.qrc">
+               <normaloff>:/icons/bug.png</normaloff>:/icons/bug.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" rowspan="3">
+            <widget class="Line" name="line">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>All Devices:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Sixaxis Only:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QGroupBox" name="groupProfile">
+          <property name="title">
+           <string>Profile Properties</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLineEdit" name="lineProfile">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="game_profiles">
+       <attribute name="title">
+        <string>Game Profiles</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_games">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="statusTip">
+           <string>It's a lazy way, you know...</string>
+          </property>
+          <property name="text">
+           <string>Instead of using a Sixaxis profile, you can edit the configuration files of a game to make it playable with a Sixaxis/DualShock3.
+The profiles in this page are meant for that.
+When you click to apply a profile here, the game's joystick configuration is modified.
+This way you won't need to apply a Sixaxis profile to play that game with it.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="listOfGames">
+          <item>
+           <property name="text">
+            <string notr="true">ePSXe (Wine)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">Extreme Tux Racer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">Neverball / Neverputt</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string notr="true">Super Tux Kart (0.5 only)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_15">
+           <item>
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="0" column="1">
+              <widget class="QWidget" name="wET" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <item>
+                 <widget class="QRadioButton" name="radio_etracer_axis">
+                  <property name="text">
+                   <string>All Axis</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_etracer_accel">
+                  <property name="text">
+                   <string>Accelerometer direction</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_etracer_full">
+                  <property name="text">
+                   <string>All Accelerometers</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QWidget" name="wEP" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <widget class="QRadioButton" name="radio_game_epsxe_1">
+                  <property name="text">
+                   <string>1:1 PlayStation controller</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_game_epsxe_axis">
+                  <property name="text">
+                   <string>Left axis as accelerometers</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_game_epsxe_drv">
+                  <property name="text">
+                   <string>Accelerometers for driving</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QWidget" name="wNE" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_12">
+                <item>
+                 <widget class="QRadioButton" name="radio_neverball_axis">
+                  <property name="text">
+                   <string>Left axis moves table</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_neverball_accel">
+                  <property name="text">
+                   <string>Accelerometers moves table</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QWidget" name="wSTK" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_14">
+                <item>
+                 <widget class="QRadioButton" name="radio_stk_digital">
+                  <property name="text">
+                   <string>All Digital</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_stk_axis">
+                  <property name="text">
+                   <string>All Axis</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_stk_accel">
+                  <property name="text">
+                   <string>Accelerometer direction</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="radio_stk_full">
+                  <property name="text">
+                   <string>All Accelerometers</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_11">
+          <item>
+           <widget class="QPushButton" name="b_game_help">
+            <property name="text">
+             <string>Help</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../icons/qtsixa.qrc">
+              <normaloff>:/icons/manual.png</normaloff>:/icons/manual.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_23">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="b_game_apply">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="statusTip">
+             <string>Enjoy!</string>
+            </property>
+            <property name="text">
+             <string>Apply</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../icons/qtsixa.qrc">
+              <normaloff>:/icons/apply.png</normaloff>:/icons/apply.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="advanced">
+       <attribute name="title">
+        <string>Advanced</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>Signal quality actions</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_20">
+             <item>
+              <widget class="QLabel" name="label_signal_device">
+               <property name="statusTip">
+                <string>First, choose a device (must be bluetooth of course)</string>
+               </property>
+               <property name="text">
+                <string>For this device:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="combo_signal_device">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="statusTip">
+                <string>First, choose a device (must be bluetooth of course)</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>(Press Refresh)</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_16">
+             <item>
+              <widget class="QLabel" name="label_signal_operation">
+               <property name="statusTip">
+                <string>Then, a trigger</string>
+               </property>
+               <property name="text">
+                <string>When signal is:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="combo_signal_operation">
+               <property name="statusTip">
+                <string>Then, a trigger</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>lower</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>higher</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>equal</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_signal_spi">
+               <property name="statusTip">
+                <string>Maybe you should check on the main tab for this..?</string>
+               </property>
+               <property name="text">
+                <string>than:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spin_signal">
+               <property name="statusTip">
+                <string>Maybe you should check on the main tab for this..?</string>
+               </property>
+               <property name="wrapping">
+                <bool>false</bool>
+               </property>
+               <property name="maximum">
+                <number>100</number>
+               </property>
+               <property name="value">
+                <number>50</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_signal_p">
+               <property name="statusTip">
+                <string/>
+               </property>
+               <property name="text">
+                <string notr="true">%:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_7">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="box_signal_disc">
+               <property name="statusTip">
+                <string>Perform action also when the device is disconnected (otherwise the action cancels itself)</string>
+               </property>
+               <property name="text">
+                <string>Disconnect also triggers action</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_11">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_21">
+             <item>
+              <widget class="QLabel" name="label_signal_line">
+               <property name="statusTip">
+                <string>How good do you Linux?</string>
+               </property>
+               <property name="text">
+                <string>Perform this bash/shell command:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="line_signal_bash">
+               <property name="statusTip">
+                <string>How good do you Linux?</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="b_tips_signal">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="statusTip">
+                <string>Need some tips?</string>
+               </property>
+               <property name="text">
+                <string>Tips...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/hint.png</normaloff>:/icons/hint.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="Line" name="line_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_22">
+             <item>
+              <widget class="QPushButton" name="b_reset_signal">
+               <property name="statusTip">
+                <string>Reset/Remove all previous set-up actions</string>
+               </property>
+               <property name="text">
+                <string>Reset</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/undo.png</normaloff>:/icons/undo.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QPushButton" name="b_refresh_signal">
+               <property name="statusTip">
+                <string>Refresh the list of devices above</string>
+               </property>
+               <property name="text">
+                <string>Refresh</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/refresh.png</normaloff>:/icons/refresh.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="b_apply_signal">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="statusTip">
+                <string>Don't forget you're running as root...</string>
+               </property>
+               <property name="text">
+                <string>Apply</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/apply.png</normaloff>:/icons/apply.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="title">
+           <string>sixad driver on hidraw device</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_17">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="statusTip">
+              <string>Use the sixad driver in a Sixaxis' hidraw device (sixad-raw)</string>
+             </property>
+             <property name="text">
+              <string>You can connect Sixaxis through USB and apply the sixad driver to it.&lt;br&gt;
+By watching 'dmesg' you can know which hidraw device is from a Sixaxis.&lt;br&gt;
+To start, just select the proper hidraw device and click apply.&lt;br&gt;
+&lt;i&gt;
+(Please note that you'll have to come here ayntime a new Sixaxis is connected)&lt;/i&gt;</string>
+             </property>
+             <property name="wordWrap">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_26">
+             <item>
+              <widget class="QLabel" name="label_hidraw">
+               <property name="statusTip">
+                <string>List of hidraw devices</string>
+               </property>
+               <property name="text">
+                <string>Use this hidraw device:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="combo_hidraw">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="statusTip">
+                <string>List of hidraw devices</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>(Press Refresh)</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="Line" name="line_6">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_27">
+             <item>
+              <widget class="QPushButton" name="b_stop_sixadraw">
+               <property name="statusTip">
+                <string>Stop sixad-raw (emergency button)</string>
+               </property>
+               <property name="text">
+                <string>Stop sixad-raw</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_12">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QPushButton" name="b_refresh_hidraw">
+               <property name="statusTip">
+                <string>Refresh the list of hidraw devices</string>
+               </property>
+               <property name="text">
+                <string>Refresh</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/refresh.png</normaloff>:/icons/refresh.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="b_apply_hidraw">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="statusTip">
+                <string>Start sixad-raw</string>
+               </property>
+               <property name="text">
+                <string>Apply</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../icons/qtsixa.qrc">
+                 <normaloff>:/icons/apply.png</normaloff>:/icons/apply.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>710</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <widget class="QMenu" name="menuWeb_Links">
+     <property name="title">
+      <string>&amp;Web &amp;&amp; Links</string>
+     </property>
+     <addaction name="act_WebPage"/>
+     <addaction name="act_Ubuntu"/>
+     <addaction name="separator"/>
+     <addaction name="act_Bug"/>
+     <addaction name="act_Donate"/>
+    </widget>
+    <addaction name="act_Manual"/>
+    <addaction name="menuWeb_Links"/>
+    <addaction name="separator"/>
+    <addaction name="act_Reference"/>
+    <addaction name="separator"/>
+    <addaction name="act_About"/>
+   </widget>
+   <widget class="QMenu" name="menu_Task">
+    <property name="title">
+     <string>&amp;Tasks</string>
+    </property>
+    <widget class="QMenu" name="menu_Disc">
+     <property name="title">
+      <string>&amp;Disconnect</string>
+     </property>
+     <addaction name="act_DiscSixaxis"/>
+     <addaction name="act_DiscDevices"/>
+     <addaction name="separator"/>
+     <addaction name="act_none"/>
+     <addaction name="act_1"/>
+     <addaction name="act_2"/>
+     <addaction name="act_3"/>
+     <addaction name="act_4"/>
+     <addaction name="act_5"/>
+     <addaction name="act_6"/>
+     <addaction name="act_7"/>
+     <addaction name="act_8"/>
+    </widget>
+    <widget class="QMenu" name="menu_Root">
+     <property name="title">
+      <string>&amp;Root Actions</string>
+     </property>
+     <addaction name="act_bt_start"/>
+     <addaction name="act_bt_stop"/>
+     <addaction name="separator"/>
+     <addaction name="act_sixad_force"/>
+     <addaction name="act_sixad_stop"/>
+    </widget>
+    <addaction name="menu_Disc"/>
+    <addaction name="act_Pair"/>
+    <addaction name="separator"/>
+    <addaction name="menu_Root"/>
+    <addaction name="separator"/>
+    <addaction name="act_Exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Settings">
+    <property name="title">
+     <string>&amp;Settings</string>
+    </property>
+    <widget class="QMenu" name="menuAdvanced">
+     <property name="title">
+      <string>Advanced</string>
+     </property>
+     <addaction name="act_RestoreDef"/>
+     <addaction name="act_Debug"/>
+    </widget>
+    <addaction name="act_Configure"/>
+    <addaction name="act_ManageProf"/>
+    <addaction name="separator"/>
+    <addaction name="menuAdvanced"/>
+   </widget>
+   <addaction name="menu_Task"/>
+   <addaction name="menu_Settings"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="act_DiscSixaxis">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/eject.png</normaloff>:/icons/eject.png</iconset>
+   </property>
+   <property name="text">
+    <string>Disconnect All Sixaxis</string>
+   </property>
+  </action>
+  <action name="act_DiscDevices">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/eject.png</normaloff>:/icons/eject.png</iconset>
+   </property>
+   <property name="text">
+    <string>Disconnect All Devices</string>
+   </property>
+  </action>
+  <action name="act_none">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>(No device found)</string>
+   </property>
+  </action>
+  <action name="act_1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="act_2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="act_3">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="act_4">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+  <action name="act_5">
+   <property name="text">
+    <string>5</string>
+   </property>
+  </action>
+  <action name="act_6">
+   <property name="text">
+    <string>6</string>
+   </property>
+  </action>
+  <action name="act_7">
+   <property name="text">
+    <string>7</string>
+   </property>
+  </action>
+  <action name="act_8">
+   <property name="text">
+    <string>8</string>
+   </property>
+  </action>
+  <action name="act_Pair">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/rec.png</normaloff>:/icons/rec.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Pair Device to PC</string>
+   </property>
+  </action>
+  <action name="act_Configure">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/config.png</normaloff>:/icons/config.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Configure QtSixA</string>
+   </property>
+  </action>
+  <action name="act_Manual">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/manual.png</normaloff>:/icons/manual.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Manual</string>
+   </property>
+  </action>
+  <action name="act_About">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/qtsixa_16.png</normaloff>:/icons/qtsixa_16.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="act_WebPage">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/web.png</normaloff>:/icons/web.png</iconset>
+   </property>
+   <property name="text">
+    <string>QtSixA &amp;WebPage</string>
+   </property>
+  </action>
+  <action name="act_Ubuntu">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/ubuntu.png</normaloff>:/icons/ubuntu.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Ubuntu Forums</string>
+   </property>
+  </action>
+  <action name="act_Bug">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/bug.png</normaloff>:/icons/bug.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Report a bug</string>
+   </property>
+  </action>
+  <action name="act_Donate">
+   <property name="text">
+    <string>&amp;Donate</string>
+   </property>
+  </action>
+  <action name="act_Exit">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/exit.png</normaloff>:/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+  </action>
+  <action name="act_bt_start">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/bt.png</normaloff>:/icons/bt.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Start Bluetooth</string>
+   </property>
+  </action>
+  <action name="act_bt_stop">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/bt_off.png</normaloff>:/icons/bt_off.png</iconset>
+   </property>
+   <property name="text">
+    <string>S&amp;top Bluetooth</string>
+   </property>
+  </action>
+  <action name="act_sixad_force">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/force.png</normaloff>:/icons/force.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Force Connection</string>
+   </property>
+  </action>
+  <action name="act_sixad_stop">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop si&amp;xad</string>
+   </property>
+  </action>
+  <action name="act_Reference">
+   <property name="text">
+    <string>Sixaxis &amp;Reference</string>
+   </property>
+  </action>
+  <action name="act_ManageProf">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/manage.png</normaloff>:/icons/manage.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Manage Devices/Profiles</string>
+   </property>
+  </action>
+  <action name="act_Debug">
+   <property name="text">
+    <string>Configure Debug mode</string>
+   </property>
+  </action>
+  <action name="act_RestoreDef">
+   <property name="icon">
+    <iconset resource="../../icons/qtsixa.qrc">
+     <normaloff>:/icons/undo.png</normaloff>:/icons/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Clear All QtSixA stuff</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../icons/qtsixa.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>act_Exit</sender>
+   <signal>triggered()</signal>
+   <receiver>QtSixAMainW</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

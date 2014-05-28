@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Name=QtSixA Notify
+GenericName=QtSixA Notifications
+Comment=QtSixA Notifications
+Exec=sixad-notify
+Icon=/usr/share/qtsixa/icons/sixaxis.png
+Terminal=false
+Type=Application
+Categories=Utility;

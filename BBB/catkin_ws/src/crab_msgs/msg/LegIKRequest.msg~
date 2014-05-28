@@ -1,0 +1,2 @@
+crab_msgs/LegJointsState joints_state
+crab_msgs/LegPositionState position_state

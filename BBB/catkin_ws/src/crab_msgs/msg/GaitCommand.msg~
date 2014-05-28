@@ -1,0 +1,6 @@
+int32 cmd
+float64 fi
+
+int32 RUN=1
+int32 STOP=2
+int32 PAUSE=2

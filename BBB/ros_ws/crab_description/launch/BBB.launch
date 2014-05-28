@@ -1,0 +1,5 @@
+<launch>
+  <param
+    name="robot_description"
+    command="$(find xacro)/xacro.py '$(find crab_description)/models/crab_model.xacro'" />
+</launch>

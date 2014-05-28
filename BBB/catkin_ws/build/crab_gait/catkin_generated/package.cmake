@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "crab_gait")
+set(crab_gait_MAINTAINER "tuuzdu <tuuzdu@todo.todo>")
+set(crab_gait_DEPRECATED "")
+set(crab_gait_VERSION "0.0.0")
+set(crab_gait_BUILD_DEPENDS "kdl_parser" "orocos_kdl" "roscpp")
+set(crab_gait_RUN_DEPENDS "kdl_parser" "orocos_kdl" "roscpp")
+set(crab_gait_BUILDTOOL_DEPENDS "catkin")

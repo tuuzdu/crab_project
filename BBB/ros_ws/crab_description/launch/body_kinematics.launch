@@ -1,0 +1,15 @@
+<launch>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find crab_description)/models/crab_model.xacro'" />
+  <param name="uart_script" command="$(find crab_maestro_controller)/script/uart_config.sh" />
+
+  <param name="joint_upper_limit" type="double" value="1.5" />
+  <param name="joint_lower_limit" type="double" value="-1.5" />
+
+  <node name="crab_leg_kinematics" pkg="crab_leg_kinematics" type="leg_ik_service"/>
+  <node name="crab_body_kinematics" pkg="crab_body_kinematics" type="body_kinematics"/>
+  <node name="crab_maestro_controller" pkg="crab_maestro_controller" type="controller_sub"/>
+
+  <include file="$(find crab_teleop_joy)/launch/joy.launch" />
+
+</launch>

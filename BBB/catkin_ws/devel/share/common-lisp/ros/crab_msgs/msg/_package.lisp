@@ -1,0 +1,19 @@
+(cl:defpackage crab_msgs-msg
+  (:use )
+  (:export
+   "<GAITCOMMAND>"
+   "GAITCOMMAND"
+   "<LEGPOSITIONSTATE>"
+   "LEGPOSITIONSTATE"
+   "<LEGSJOINTSSTATE>"
+   "LEGSJOINTSSTATE"
+   "<BODYSTATE>"
+   "BODYSTATE"
+   "<LEGIKREQUEST>"
+   "LEGIKREQUEST"
+   "<BODYCOMMAND>"
+   "BODYCOMMAND"
+   "<LEGJOINTSSTATE>"
+   "LEGJOINTSSTATE"
+  ))
+

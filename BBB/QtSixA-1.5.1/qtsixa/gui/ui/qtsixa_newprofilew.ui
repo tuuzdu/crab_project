@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewProfileW</class>
+ <widget class="QDialog" name="NewProfileW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>686</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtSixA - New Profile</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="0" column="0" rowspan="2">
+    <widget class="QDockWidget" name="dockWidget">
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>400</height>
+      </size>
+     </property>
+     <property name="floating">
+      <bool>false</bool>
+     </property>
+     <property name="features">
+      <set>QDockWidget::DockWidgetClosable|QDockWidget::DockWidgetFloatable</set>
+     </property>
+     <property name="allowedAreas">
+      <set>Qt::LeftDockWidgetArea</set>
+     </property>
+     <widget class="QWidget" name="dockWidgetContents">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QTextEdit" name="textEdit">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;title&gt;keylist.txt&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/*&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; * Keys and buttons&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; *&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; * Abbreviations in the comments:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; * AC - Application Control&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; * AL - Application Launch Button&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; * SC - System Control&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt; */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; font-style:italic; color:#787775; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; font-style:italic; color:#787775; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_ESC                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_1                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_2                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_3                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;4&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_4                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;5&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_5                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;6&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_6                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;7&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_7                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;8&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_8                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;9&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_9                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;10&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_0                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;11&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MINUS               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;12&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_EQUAL               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;13&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BACKSPACE           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;14&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_TAB                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;15&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_Q                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;16&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_W                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;17&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_E                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;18&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_R                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;19&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_T                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;20&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_Y                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;21&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_U                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;22&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_I                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;23&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_O                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;24&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_P                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;25&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LEFTBRACE           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;26&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RIGHTBRACE          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;27&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_ENTER               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;28&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LEFTCTRL            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;29&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_A                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;30&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_S                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;31&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_D                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;32&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;33&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_G                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;34&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_H                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;35&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_J                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;36&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_K                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;37&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_L                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;38&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SEMICOLON           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;39&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_APOSTROPHE          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;40&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_GRAVE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;41&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LEFTSHIFT           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;42&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BACKSLASH           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;43&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_Z                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;44&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_X                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;45&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_C                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;46&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_V                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;47&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_B                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;48&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_N                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;49&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_M                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;50&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_COMMA               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;51&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DOT                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;52&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SLASH               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;53&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RIGHTSHIFT          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;54&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPASTERISK          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;55&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LEFTALT             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;56&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SPACE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;57&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CAPSLOCK            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;58&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F1                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;59&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F2                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;60&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F3                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;61&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F4                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;62&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F5                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;63&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F6                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;64&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F7                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;65&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F8                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;66&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F9                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;67&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F10                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;68&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_NUMLOCK             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;69&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SCROLLLOCK          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;70&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP7                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;71&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP8                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;72&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP9                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;73&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPMINUS             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;74&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP4                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;75&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP5                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;76&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP6                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;77&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPPLUS              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;78&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP1                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;79&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP2                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;80&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP3                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;81&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KP0                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;82&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPDOT               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;83&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_ZENKAKUHANKAKU      &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;85&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_102ND               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;86&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F11                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;87&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F12                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;88&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RO                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;89&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KATAKANA            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;90&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HIRAGANA            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;91&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HENKAN              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;92&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KATAKANAHIRAGANA    &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;93&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MUHENKAN            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;94&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPJPCOMMA           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;95&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPENTER             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;96&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RIGHTCTRL           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;97&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPSLASH             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;98&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SYSRQ               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;99&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RIGHTALT            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;100&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LINEFEED            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;101&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HOME                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;102&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_UP                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;103&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PAGEUP              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;104&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LEFT                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;105&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RIGHT               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;106&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_END                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;107&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DOWN                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;108&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PAGEDOWN            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;109&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_INSERT              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;110&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DELETE              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;111&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MACRO               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;112&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MUTE                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;113&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_VOLUMEDOWN          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;114&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_VOLUMEUP            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;115&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_POWER               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;116&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* SC System Power Down */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPEQUAL             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;117&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPPLUSMINUS         &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;118&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PAUSE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;119&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SCALE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;120&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Compiz Scale (Expose) */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; font-style:italic; color:#787775; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPCOMMA             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;121&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HANGEUL             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;122&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HANGUEL             KEY_HANGEUL&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HANJA               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;123&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_YEN                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;124&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_LEFTMETA            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;125&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RIGHTMETA           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;126&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_COMPOSE             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;127&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_STOP                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;128&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Stop */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_AGAIN               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;129&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PROPS               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;130&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Properties */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_UNDO                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;131&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Undo */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FRONT               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;132&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_COPY                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;133&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Copy */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_OPEN                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;134&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Open */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PASTE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;135&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Paste */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FIND                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;136&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Search */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CUT                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;137&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Cut */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HELP                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;138&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Integrated Help Center */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MENU                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;139&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* Menu (show menu) */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CALC                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;140&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Calculator */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SETUP               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;141&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SLEEP               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;142&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* SC System Sleep */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_WAKEUP              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;143&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* System Wake Up */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FILE                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;144&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Local Machine Browser */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SENDFILE            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;145&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DELETEFILE          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;146&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_XFER                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;147&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PROG1               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;148&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PROG2               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;149&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_WWW                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;150&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Internet Browser */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MSDOS               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;151&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_COFFEE              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;152&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Terminal Lock/Screensaver */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SCREENLOCK          KEY_COFFEE&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DIRECTION           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;153&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CYCLEWINDOWS        &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;154&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MAIL                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;155&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BOOKMARKS           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;156&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Bookmarks */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_COMPUTER            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;157&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BACK                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;158&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Back */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FORWARD             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;159&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Forward */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CLOSECD             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;160&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_EJECTCD             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;161&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_EJECTCLOSECD        &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;162&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_NEXTSONG            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;163&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PLAYPAUSE           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;164&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PREVIOUSSONG        &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;165&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_STOPCD              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;166&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_RECORD              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;167&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_REWIND              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;168&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PHONE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;169&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* Media Select Telephone */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_ISO                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;170&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CONFIG              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;171&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Consumer Control Configuration */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HOMEPAGE            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;172&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Home */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_REFRESH             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;173&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Refresh */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_EXIT                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;174&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Exit */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MOVE                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;175&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_EDIT                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;176&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SCROLLUP            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;177&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SCROLLDOWN          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;178&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPLEFTPAREN         &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;179&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KPRIGHTPAREN        &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;180&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_NEW                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;181&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC New */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_REDO                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;182&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Redo/Repeat */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; font-style:italic; color:#787775; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F13                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;183&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F14                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;184&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F15                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;185&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F16                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;186&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F17                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;187&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F18                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;188&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F19                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;189&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F20                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;190&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F21                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;191&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F22                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;192&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F23                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;193&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_F24                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;194&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PLAYCD              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;200&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PAUSECD             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;201&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PROG3               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;202&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PROG4               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;203&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DASHBOARD           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;204&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Dashboard */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SUSPEND             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;205&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CLOSE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;206&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Close */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PLAY                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;207&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FASTFORWARD         &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;208&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BASSBOOST           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;209&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_PRINT               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;210&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Print */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_HP                  &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;211&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CAMERA              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;212&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SOUND               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;213&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_QUESTION            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;214&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_EMAIL               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;215&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CHAT                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;216&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SEARCH              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;217&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CONNECT             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;218&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FINANCE             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;219&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AL Checkbook/Finance */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SPORT               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;220&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SHOP                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;221&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_ALTERASE            &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;222&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_CANCEL              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;223&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Cancel */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BRIGHTNESSDOWN      &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;224&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BRIGHTNESSUP        &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;225&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_MEDIA               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;226&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SWITCHVIDEOMODE     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;227&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* Cycle between available video&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;                                   outputs (Monitor/LCD/TV-out/etc) */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KBDILLUMTOGGLE      &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;228&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KBDILLUMDOWN        &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;229&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_KBDILLUMUP          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;230&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SEND                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;231&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Send */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_REPLY               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;232&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Reply */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_FORWARDMAIL         &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;233&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Forward Msg */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_SAVE                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;234&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* AC Save */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DOCUMENTS           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;235&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BATTERY             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;236&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BLUETOOTH           &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;237&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_WLAN                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;238&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_UWB                 &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;239&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_UNKNOWN             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;240&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_VIDEO_NEXT          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;241&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* drive next video source */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_VIDEO_PREV          &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;242&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* drive previous video source */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BRIGHTNESS_CYCLE    &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;243&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* brightness up, after max is min */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_BRIGHTNESS_ZERO     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;244&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* brightness off, use ambient */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;KEY_DISPLAY_OFF         &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;245&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; font-style:italic; color:#787775;&quot;&gt;/* display device to off state */&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; font-style:italic; color:#787775; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; font-style:italic; color:#787775; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_MISC                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;256&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_0                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;256&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_1                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;257&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_2                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;258&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_3                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;259&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_4                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;260&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_5                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;261&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_6                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;262&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_7                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;263&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_8                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;264&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_9                   &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;265&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier'; color:#c0a25f; background-color:#201f1f;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_MOUSE               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;272&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_LEFT                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;272&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_RIGHT               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;273&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_MIDDLE              &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;274&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_SIDE                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;275&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_EXTRA               &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;276&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_FORWARD             &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;277&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_BACK                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;278&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#d4d2cf;&quot;&gt;BTN_TASK                &lt;/span&gt;&lt;span style=&quot; font-family:'Courier New,courier'; color:#c0a25f;&quot;&gt;279&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#201f1f;&quot;&gt;&lt;span style=&quot; font-family:'Courier New,courier'; background-color:#201f1f;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_app">
+       <property name="text">
+        <string>Application:</string>
+       </property>
+       <property name="buddy">
+        <cstring>line_app</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="line_app">
+       <property name="text">
+        <string notr="true">(App Name)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_author">
+       <property name="text">
+        <string>Author:</string>
+       </property>
+       <property name="buddy">
+        <cstring>line_author</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="line_author">
+       <property name="text">
+        <string notr="true">(Your Name)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="b_keys">
+       <property name="text">
+        <string>&amp;View available keys</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../icons/qtsixa.qrc">
+         <normaloff>:/icons/manual.png</normaloff>:/icons/manual.png</iconset>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_tips">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>&amp;Tips &amp;&amp; Tricks</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../icons/qtsixa.qrc">
+         <normaloff>:/icons/hint.png</normaloff>:/icons/hint.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>458</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_close">
+       <property name="text">
+        <string>&amp;Close</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../icons/qtsixa.qrc">
+         <normaloff>:/icons/close.png</normaloff>:/icons/close.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_done">
+       <property name="text">
+        <string>&amp;Done!</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../icons/qtsixa.qrc">
+         <normaloff>:/icons/apply.png</normaloff>:/icons/apply.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <widget class="QToolBox" name="toolBox">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>412</width>
+        <height>297</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Buttons</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <spacer name="horizontalSpacer_33">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_l2">
+           <property name="text">
+            <string notr="true">L2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_l2">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>238</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_r2">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_r2">
+           <property name="text">
+            <string>R2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_35">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <spacer name="horizontalSpacer_34">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_l1">
+           <property name="text">
+            <string notr="true">L1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_l1">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>238</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_r1">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_r1">
+           <property name="text">
+            <string>R1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_36">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <spacer name="horizontalSpacer_15">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_select">
+           <property name="text">
+            <string notr="true">Select</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_select">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Line" name="line_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_start">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_start">
+           <property name="text">
+            <string notr="true">Start</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_16">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_25">
+         <item>
+          <spacer name="horizontalSpacer_31">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_ps">
+           <property name="maximum">
+            <number>279</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_32">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_24">
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_ps">
+           <property name="text">
+            <string notr="true">PS</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignHCenter|Qt::AlignTop</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>18</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_16">
+         <item>
+          <spacer name="horizontalSpacer_37">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_up">
+               <property name="text">
+                <string>Up</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_11">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_up">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="QLabel" name="label_left">
+               <property name="text">
+                <string>Left</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_left">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_right">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_right">
+               <property name="text">
+                <string>Right</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <spacer name="horizontalSpacer_9">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_down">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_10">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <spacer name="horizontalSpacer_12">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_down">
+               <property name="text">
+                <string>Down</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_13">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_24">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <spacer name="horizontalSpacer_14">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_triangle">
+               <property name="text">
+                <string>Triangle</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_17">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <item>
+              <spacer name="horizontalSpacer_18">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_triangle">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_19">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <item>
+              <widget class="QLabel" name="label_square">
+               <property name="text">
+                <string>Square</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_square">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_3">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_circle">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_circle">
+               <property name="text">
+                <string>Circle</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <item>
+              <spacer name="horizontalSpacer_20">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="s_cross">
+               <property name="maximum">
+                <number>279</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_21">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <spacer name="horizontalSpacer_22">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_cross">
+               <property name="text">
+                <string>Cross</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_23">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_38">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>26</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <property name="geometry">
+       <rect>
+        <x>-223</x>
+        <y>0</y>
+        <width>490</width>
+        <height>293</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Axis</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0" colspan="3">
+        <layout class="QHBoxLayout" name="horizontalLayout_23">
+         <item>
+          <spacer name="horizontalSpacer_40">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Axis Speed Multiplier:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="s_speed">
+           <property name="suffix">
+            <string>x</string>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9</number>
+           </property>
+           <property name="value">
+            <number>6</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_39">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_19">
+           <item>
+            <spacer name="horizontalSpacer_29">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_combo_left">
+             <property name="text">
+              <string>Use Left Axis As:</string>
+             </property>
+             <property name="buddy">
+              <cstring>combo_left</cstring>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="combo_left">
+             <property name="currentIndex">
+              <number>3</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Mouse</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Scroll</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Custom Buttons</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>None</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_25">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>126</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="group_left_h">
+           <property name="title">
+            <string>Left Axis (Horizontal)</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>Left</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="s_left_left">
+                <property name="maximum">
+                 <number>279</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_5">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="s_left_right">
+                <property name="maximum">
+                 <number>279</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>Right</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_21">
+           <item>
+            <spacer name="horizontalSpacer_6">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="group_left_v">
+             <property name="title">
+              <string>Left Axis (Vertical)</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="0" column="0">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="text">
+                   <string>Up</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="s_left_up">
+                  <property name="maximum">
+                   <number>279</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_4">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="s_left_down">
+                  <property name="maximum">
+                   <number>279</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="text">
+                   <string>Down</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_7">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="1">
+        <widget class="Line" name="line_8">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_22">
+           <item>
+            <spacer name="horizontalSpacer_30">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_combo_right">
+             <property name="text">
+              <string>Use Right Axis As:</string>
+             </property>
+             <property name="buddy">
+              <cstring>combo_right</cstring>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="combo_right">
+             <property name="currentIndex">
+              <number>3</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Mouse</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Scroll</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Custom Buttons</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>None</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_28">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="group_right_h">
+           <property name="title">
+            <string>Right Axis (Horizontal)</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_18">
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>Left</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="s_right_left">
+                <property name="maximum">
+                 <number>279</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_6">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="s_right_right">
+                <property name="maximum">
+                 <number>279</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>Right</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_20">
+           <item>
+            <spacer name="horizontalSpacer_26">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="group_right_v">
+             <property name="title">
+              <string>Right Axis (Vertical)</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="0" column="0">
+               <layout class="QVBoxLayout" name="verticalLayout_7">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="text">
+                   <string>Up</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="s_right_up">
+                  <property name="maximum">
+                   <number>279</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_7">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="s_right_down">
+                  <property name="maximum">
+                   <number>279</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="text">
+                   <string>Down</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_27">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../icons/qtsixa.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>b_close</sender>
+   <signal>clicked()</signal>
+   <receiver>NewProfileW</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>474</x>
+     <y>452</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>306</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>b_keys</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dockWidget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>107</x>
+     <y>448</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>108</x>
+     <y>366</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dockWidget</sender>
+   <signal>visibilityChanged(bool)</signal>
+   <receiver>b_keys</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>147</x>
+     <y>453</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

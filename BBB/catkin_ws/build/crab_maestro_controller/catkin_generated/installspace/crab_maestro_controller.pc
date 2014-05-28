@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/install
+
+Name: crab_maestro_controller
+Description: Description of crab_maestro_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/catkin_ws/install/lib 
+Requires: 

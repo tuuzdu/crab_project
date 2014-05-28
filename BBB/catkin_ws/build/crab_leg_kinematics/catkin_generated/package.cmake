@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "crab_leg_kinematics")
+set(crab_leg_kinematics_MAINTAINER "tuuzdu <tuuzdu@todo.todo>")
+set(crab_leg_kinematics_DEPRECATED "")
+set(crab_leg_kinematics_VERSION "0.0.0")
+set(crab_leg_kinematics_BUILD_DEPENDS "orocos_kdl" "kdl_parser" "roscpp" "rospy" "std_msgs")
+set(crab_leg_kinematics_RUN_DEPENDS "orocos_kdl" "kdl_parser" "roscpp" "rospy" "std_msgs")
+set(crab_leg_kinematics_BUILDTOOL_DEPENDS "catkin")

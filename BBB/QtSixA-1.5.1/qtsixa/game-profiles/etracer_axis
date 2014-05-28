@@ -1,0 +1,52 @@
+
+# joystick_paddle_button
+#
+# Joystick button for paddling (numbering starts at 0).
+# Set to -1 to disable.
+#
+set joystick_paddle_button 14
+
+# joystick_brake_button
+#
+# Joystick button for braking (numbering starts at 0).
+# Set to -1 to disable.
+#
+set joystick_brake_button 15
+
+# joystick_jump_button
+#
+# Joystick button for jumping (numbering starts at 0)
+#
+set joystick_jump_button 13
+
+# joystick_trick_button
+#
+# Joystick button for doing tricks (numbering starts at 0)
+#
+set joystick_trick_button 12
+
+# joystick_continue_button
+#
+# Joystick button for moving past intro, paused, and 
+# game over screens (numbering starts at 0)
+#
+set joystick_continue_button 3
+
+# joystick_x_axis
+#
+# Joystick axis to use for turning (numbering starts at 0)
+#
+set joystick_x_axis 0
+
+# joystick_y_axis
+#
+# Joystick axis to use for paddling/braking (numbering starts at 0)
+#
+set joystick_y_axis 3
+
+# disable_joystick
+#
+# Disables the joystick support
+#
+set disable_joystick false
+

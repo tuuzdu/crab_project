@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# Small utility that triggers an action when certain LQ (Link/Signal Quality) attributtes are achieved
+#
+# Made by falkTX, 2009
+
+import commands, os, sys, time
+
+
+#Check for system arguments
+if (len(sys.argv) == 1):
+  print "Usage:  sixa_lq <addr (text)> <operation (text)> <value (int)> <alsoDisconnect? (bool-int)> <bash command (text, in commas)>"
+  exit(0)
+elif (len(sys.argv) < 5):
+  print "Error: Unsufficient arguments"
+  exit(-1)
+
+
+#Reading stuff to control the program
+SelectedSixaxisMAC = sys.argv[1]
+Operation = sys.argv[2]
+OperationValue = int(sys.argv[3])
+AlsoDisconnect = int(sys.argv[4])
+BashCommand = sys.argv[5]
+
+
+#Check and process data
+if (OperationValue > 100):
+  print "Error: Invalid value supplied (maximum is 100)"
+  exit(-2)
+
+lq_check = commands.getoutput("hcitool lq "+SelectedSixaxisMAC+"  | awk '{printf$3}'")
+if (lq_check == "Not connected."):
+  print "Error: Invalid Sixaxis selected (not connected)"
+  exit(-3)
+else:
+  lq_final = int(lq_check)/255*100
+
+
+#Final Loop
+if (Operation == "lower"):
+    while (lq_final >= OperationValue):
+	time.sleep(2)
+	lq_check = commands.getoutput("hcitool lq "+SelectedSixaxisMAC+"  | awk '{printf$3}'")
+	if (lq_check == "Not connected."):
+	    if (AlsoDisconnect == 1):
+		os.system(str(BashCommand))
+		exit(0)
+	    else:
+		print "Error: Sixaxis was disconnected"
+		exit(-4)
+	else:
+	    lq_final = int(lq_check)/255*100
+    else:
+	if (lq_final < OperationValue): os.system(str(BashCommand))
+	else:
+	    print "Error: The loop ended too soon..."
+	    exit(-5)
+
+elif (Operation == "higher"):
+    while (lq_final <= OperationValue):
+	time.sleep(2)
+	lq_check = commands.getoutput("hcitool lq "+SelectedSixaxisMAC+"  | awk '{printf$3}'")
+	if (lq_check == "Not connected."):
+	    if (AlsoDisconnect == 1):
+		os.system(str(BashCommand))
+		exit(0)
+	    else:
+		print "Error: Sixaxis was disconnected"
+		exit(-4)
+	else:
+	    lq_final = int(lq_check)/255*100
+    else:
+	if (lq_final > OperationValue): os.system(str(BashCommand))
+	else:
+	    print "Error: The loop ended too soon..."
+	    exit(-5)
+
+elif (Operation == "equal"):
+    while (lq_final != OperationValue):
+	time.sleep(2)
+	lq_check = commands.getoutput("hcitool lq "+SelectedSixaxisMAC+"  | awk '{printf$3}'")
+	if (lq_check == "Not connected."):
+	    if (AlsoDisconnect == 1):
+		os.system(str(BashCommand))
+		exit(0)
+	    else:
+		print "Error: Sixaxis was disconnected"
+		exit(-4)
+	else:
+	    lq_final = int(lq_check)/255*100
+    else:
+	if (lq_final == OperationValue): os.system(str(BashCommand))
+	else:
+	    print "Error: The loop ended too soon..."
+	    exit(-5)
+
+else:
+  print "Error: Invalid operation selected"
+  exit(-5)

@@ -1,0 +1,11 @@
+int32[] leg_number
+crab_msgs/LegJointsState[] current_joints
+crab_msgs/LegPositionState[] target_position
+#duration timeout
+---
+crab_msgs/LegJointsState[] target_joints
+int32 error_codes
+
+int32 IK_FOUND=1
+int32 IK_NOT_FOUND=-1
+int32 TIMED_OUT=-2

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReferenceW</class>
+ <widget class="QDialog" name="ReferenceW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtSixA - Reference</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Sixaxis/DualShock3 input events reference&lt;/span&gt;&lt;br /&gt;------------------------------------------------------------&lt;br /&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Buttons:&lt;/span&gt;&lt;br /&gt;0. Select&lt;br /&gt;1. L3&lt;br /&gt;2. R3&lt;br /&gt;3. Start&lt;br /&gt;4. Up&lt;br /&gt;5. Right&lt;br /&gt;6. Down&lt;br /&gt;7. Left&lt;br /&gt;8. L2&lt;br /&gt;9. R2&lt;br /&gt;10. L1&lt;br /&gt;11. R1&lt;br /&gt;12. Triangle&lt;br /&gt;13. Circle&lt;br /&gt;14. Cross&lt;br /&gt;15. Square&lt;br /&gt;16. PS&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Axis:&lt;/span&gt;&lt;br /&gt;0. Left Axis X (Horizontal)&lt;br /&gt;1. Left Axis Y (Vertical)&lt;br /&gt;2. Right Axis X (Horizontal)&lt;br /&gt;3. Right Axis Y (Vertical)&lt;br /&gt;4. Accelerometer X (roll)&lt;br /&gt;5. Accelerometer Y (pitch)&lt;br /&gt;6. Accelerometer Z (gravity)&lt;br /&gt;7. Gyro/Yaw (not working yet)&lt;br /&gt;8. Up&lt;br /&gt;9. Right&lt;br /&gt;10. Down&lt;br /&gt;11. Left&lt;br /&gt;12. L2&lt;br /&gt;13. R2&lt;br /&gt;14. L1&lt;br /&gt;15. R1&lt;br /&gt;16. Triangle&lt;br /&gt;17. Circle&lt;br /&gt;18. Cross&lt;br /&gt;19. Square&lt;br /&gt;20. Acceleration X&lt;br /&gt;21. Acceleration Y&lt;br /&gt;22. Acceleration Z&lt;br /&gt;23. Speed X&lt;br /&gt;24. Speed Y&lt;br /&gt;25. Speed Z&lt;br /&gt;26. Position X&lt;br /&gt;27. Position Y&lt;br /&gt;28. Position Z&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Note:&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;&lt;br /&gt;Some games will increase these values by 1 value,&lt;br /&gt;starting at 1 instead of 0;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Ok</set>
+     </property>
+     <property name="centerButtons">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>ReferenceW</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

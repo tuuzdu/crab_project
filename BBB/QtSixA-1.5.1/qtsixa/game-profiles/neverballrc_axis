@@ -1,0 +1,18 @@
+
+joystick                  1
+joystick_device           0
+joystick_axis_x           0
+joystick_axis_y           1
+joystick_button_a         14
+joystick_button_b         13
+joystick_button_r         9
+joystick_button_l         8
+joystick_button_exit      3
+joystick_camera_1         10
+joystick_camera_2         11
+joystick_camera_3         7
+joystick_dpad_l           7
+joystick_dpad_r           5
+joystick_dpad_u           4
+joystick_dpad_d           6
+joystick_camera_toggle    16

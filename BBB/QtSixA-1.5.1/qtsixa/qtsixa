@@ -1,0 +1,69 @@
+#!/bin/bash
+#
+# QtSixA - The Sixaxis Joystick Manager
+# PyQt "wrapper"/launcher
+
+
+case $1 in
+
+    get-root|-get-root|--get-root)
+KDESU='kdesu -- '
+KDESUDO='kdesudo -i /usr/share/qtsixa/icons/qtsixa.png -- '
+GKSU='gksu --description /usr/share/applications/qtsixa.desktop -- '
+
+#taken from winetricks (modified):
+if [ x"$KDE_FULL_SESSION" = x"true" ]; then
+{ #KDE
+    if [ -f /usr/bin/kdesudo ]; then ROOT="$KDESUDO"; else
+      if [ -f /usr/bin/kdesu ]; then ROOT="$KDESU"; else
+        if [ -f /usr/bin/gksu ]; then ROOT="$GKSU"; else
+          ROOT='sudo'
+        fi
+      fi
+    fi
+} #KDE (End)
+else if [ x"$GNOME_DESKTOP_SESSION_ID" != x"" ]; then
+{ #Gnome
+    if [ -f /usr/bin/gksu ]; then ROOT="$GKSU"; else
+      if [ -f /usr/bin/kdesudo ]; then ROOT="$KDESUDO"; else
+        if [ -f /usr/bin/kdesu ]; then ROOT="$KDESU"; else
+          ROOT='sudo'
+        fi
+      fi
+    fi
+} #Gnome (End)
+else if [ x"$DISPLAY" != x"" ]; then
+{ #Other X
+    if [ -f /usr/bin/gksu ]; then ROOT="$GKSU"; else
+      if [ -f /usr/bin/kdesudo ]; then ROOT="$KDESUDO"; else
+        if [ -f /usr/bin/kdesu ]; then ROOT="$KDESU"; else
+          ROOT='sudo'
+        fi
+      fi
+    fi
+} #Other X (End)
+else
+{ #No known session
+    if [ -f /usr/bin/gksu ]; then ROOT="$GKSU"; else
+      if [ -f /usr/bin/kdesudo ]; then ROOT="$KDESUDO"; else
+        if [ -f /usr/bin/kdesu ]; then ROOT="$KDESU"; else
+          ROOT='sudo'
+        fi
+      fi
+    fi
+} #No known session (End)
+fi
+fi
+fi
+
+echo "$ROOT"
+    ;;
+
+    *)
+if [ -f ./gui/main.py ]; then
+  exec python ./gui/main.py "$@"
+else
+  exec python /usr/share/qtsixa/gui/main.py "$@"
+fi
+    ;;
+esac

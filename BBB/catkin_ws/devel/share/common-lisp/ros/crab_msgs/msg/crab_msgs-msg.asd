@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "crab_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "GaitCommand" :depends-on ("_package_GaitCommand"))
+    (:file "_package_GaitCommand" :depends-on ("_package"))
+    (:file "LegPositionState" :depends-on ("_package_LegPositionState"))
+    (:file "_package_LegPositionState" :depends-on ("_package"))
+    (:file "LegsJointsState" :depends-on ("_package_LegsJointsState"))
+    (:file "_package_LegsJointsState" :depends-on ("_package"))
+    (:file "BodyState" :depends-on ("_package_BodyState"))
+    (:file "_package_BodyState" :depends-on ("_package"))
+    (:file "LegIKRequest" :depends-on ("_package_LegIKRequest"))
+    (:file "_package_LegIKRequest" :depends-on ("_package"))
+    (:file "BodyCommand" :depends-on ("_package_BodyCommand"))
+    (:file "_package_BodyCommand" :depends-on ("_package"))
+    (:file "LegJointsState" :depends-on ("_package_LegJointsState"))
+    (:file "_package_LegJointsState" :depends-on ("_package"))
+  ))

@@ -1,0 +1,10 @@
+(cl:defpackage crab_msgs-srv
+  (:use )
+  (:export
+   "GETLEGIKSOLVER"
+   "<GETLEGIKSOLVER-REQUEST>"
+   "GETLEGIKSOLVER-REQUEST"
+   "<GETLEGIKSOLVER-RESPONSE>"
+   "GETLEGIKSOLVER-RESPONSE"
+  ))
+

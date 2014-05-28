@@ -1,0 +1,50 @@
+QtSixA is the Sixaxis Joystick Manager
+ -----------------------------------
+
+In order to build, install and use sixad/QtSixA you'll need:
+
+1 - Compile sixad: (dev packages)
+----> libusb
+----> libbluetooth3
+----> libdbus-1
+----> libdbus-glib-1
+----> libjack (optional, for sixad-jack)
+
+2 - Use sixad:
+----> bluez (recent versions are recommended)
+----> libbluetooth3
+----> udev (optional, automatically starts sixad when needed)
+
+3 - Compile QtSixA:
+----> python-qt4-dev[el]
+
+4 - Use QtSixA: (all features)
+----> Python-Qt4 (PyQt) .......... Interface
+----> Python-DBus ................ Disconnect devices (no root)
+----> BlueZ ...................... All Bluetooth stuff
+----> gksu[do]/kdesu[do] ......... Root actions
+----> bluez-hcidump .............. Sixaxis battery check
+----> libnotify/notify-send ...... Notifications
+----> xdg-utils .................. Open web pages
+
+
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨̣¨¨
+
+To install all the stuff, just do:
+
+cd /path/to/extracted/src
+make
+sudo make install
+sudo make install-system
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+QtSixA and sixad have been tested (and proved to work) in:
+- Debian
+- Ubuntu (and variants)
+- OpenSUSE
+- ArchLinux
+- Gentoo
+
+

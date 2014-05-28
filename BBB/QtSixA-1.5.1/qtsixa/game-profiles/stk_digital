@@ -1,0 +1,201 @@
+
+    (left	
+      (type "stickbutton")
+      (stick 0)
+      (button 7)
+    )
+    (right	
+      (type "stickbutton")
+      (stick 0)
+      (button 5)
+    )
+    (accel	
+      (type "stickbutton")
+      (stick 0)
+      (button 14)
+    )
+    (brake	
+      (type "stickbutton")
+      (stick 0)
+      (button 15)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 0)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 0)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 0)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 0)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 0)
+      (button 12)
+    )
+  ) 
+  ; player 2 settings
+  (player-2
+    (name	 "Player 2")
+    ; optional
+    (lastKartId 0)
+    (left	
+      (type "stickbutton")
+      (stick 1)
+      (button 7)
+    )
+    (right	
+      (type "stickbutton")
+      (stick 1)
+      (button 5)
+    )
+    (accel	
+      (type "stickbutton")
+      (stick 1)
+      (button 14)
+    )
+    (brake	
+      (type "stickbutton")
+      (stick 1)
+      (button 15)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 1)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 1)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 1)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 1)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 1)
+      (button 12)
+    )
+  ) 
+   ; player 3 settings
+  (player-3
+    (name	 "Player 3")
+    ; optional
+    (lastKartId 0)
+    (left	
+      (type "stickbutton")
+      (stick 2)
+      (button 7)
+    )
+    (right	
+      (type "stickbutton")
+      (stick 2)
+      (button 5)
+    )
+    (accel	
+      (type "stickbutton")
+      (stick 2)
+      (button 14)
+    )
+    (brake	
+      (type "stickbutton")
+      (stick 2)
+      (button 15)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 2)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 2)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 2)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 2)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 2)
+      (button 12)
+    )
+  ) 
+  ; player 4 settings
+  (player-4
+    (name	 "Player 4")
+    ; optional
+    (lastKartId 0)
+    (left	
+      (type "stickbutton")
+      (stick 3)
+      (button 7)
+    )
+    (right	
+      (type "stickbutton")
+      (stick 3)
+      (button 5)
+    )
+    (accel	
+      (type "stickbutton")
+      (stick 3)
+      (button 14)
+    )
+    (brake	
+      (type "stickbutton")
+      (stick 3)
+      (button 15)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 3)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 3)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 3)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 3)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 3)
+      (button 12)
+    )
+  ) 
+ )

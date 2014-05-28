@@ -1,0 +1,47 @@
+/*
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "ti,beaglebone", "ti,beaglebone-black";
+
+    /* identification */
+    part-number = "uart5";
+
+    fragment@0 {
+        target = <&am33xx_pinmux>;
+        __overlay__ {
+            pinctrl_uart5: pinctrl_uart5_pins {
+                pinctrl-single,pins = <					 				   
+                        0x070 0x26  /* P9_11 = GPIO0_30 = GPMC_WAIT0 , MODE6 */
+                        0x074 0x06  /* P9_13 = GPIO0_31 = GPMC_WPN, MODE6 */
+                >;
+            };
+        };
+    };
+
+	fragment@1{
+		target = <&uart5>;
+		__overlay__ {
+			status			= "okay";
+		};
+	};
+
+    fragment@2 {
+        target = <&ocp>;
+        __overlay__ {
+            test_helper: helper {
+                compatible = "bone-pinmux-helper";
+                pinctrl-names = "default";
+                pinctrl-0 = <&pinctrl_uart5>;
+                status = "okay";
+            };
+        };
+    };
+};

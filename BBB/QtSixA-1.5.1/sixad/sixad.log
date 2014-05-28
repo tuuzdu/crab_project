@@ -1,0 +1,6 @@
+/var/log/sixad.log {
+  rotate 10
+  size 50M
+  missingok
+  compress
+}

@@ -1,0 +1,9 @@
+QtSixA TODO list
+
+ - Register sixad in DBus, so we can eventually change settings without re-connect
+ - ALSA midi mode
+ - DBus sender mode (to control other apps)
+ - Get more icons for the notifications (only the Sixaxis one is used at the moment)
+ - What is the gyro suppose to do ??
+ - Create a new icon!
+ - Use user's icon theme instead of just Oxygen

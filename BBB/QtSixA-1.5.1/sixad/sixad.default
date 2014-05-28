@@ -1,0 +1,3 @@
+# System-wide options for sixad
+DEBUG=0
+LEGACY=0

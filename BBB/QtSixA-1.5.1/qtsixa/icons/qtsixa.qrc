@@ -1,0 +1,31 @@
+<RCC version="1.0">
+	<qresource prefix="/icons/">
+		<file>apply.png</file>
+		<file>battery.png</file>
+		<file>bt_off.png</file>
+		<file>bt.png</file>
+		<file>bug.png</file>
+		<file>close.png</file>
+		<file>config.png</file>
+                <file>edit.png</file>
+		<file>eject.png</file>
+		<file>exit.png</file>
+		<file>force.png</file>
+		<file>hint.png</file>
+		<file>info.png</file>
+                <file>manage.png</file>
+		<file>manual.png</file>
+                <file>minus.png</file>
+		<file>plus.png</file>
+		<file>qtsixa.png</file>
+		<file>qtsixa_16.png</file>
+                <file>qtsixa_32.png</file>
+		<file>rec.png</file>
+		<file>refresh.png</file>
+		<file>stop.png</file>
+		<file>trash.png</file>
+		<file>ubuntu.png</file>
+		<file>undo.png</file>
+		<file>web.png</file>
+	</qresource>
+</RCC>

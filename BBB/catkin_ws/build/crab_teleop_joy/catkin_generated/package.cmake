@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "crab_teleop_joy")
+set(crab_teleop_joy_MAINTAINER "tuuzdu <tuuzdu@todo.todo>")
+set(crab_teleop_joy_DEPRECATED "")
+set(crab_teleop_joy_VERSION "0.0.0")
+set(crab_teleop_joy_BUILD_DEPENDS "joy" "ps3joy" "roscpp" "std_msgs")
+set(crab_teleop_joy_RUN_DEPENDS "joy" "ps3joy" "roscpp" "std_msgs")
+set(crab_teleop_joy_BUILDTOOL_DEPENDS "catkin")

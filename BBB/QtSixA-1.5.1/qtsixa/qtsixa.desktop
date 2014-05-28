@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=QtSixA
+GenericName=Sixaxis Joystick Manager
+Comment=Sixaxis Joystick Manager
+Exec=qtsixa
+Icon=qtsixa
+Terminal=false
+Type=Application
+Categories=Utility;

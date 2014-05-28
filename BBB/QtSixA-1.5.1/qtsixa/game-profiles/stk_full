@@ -1,0 +1,233 @@
+
+    (left	
+      (type "stickaxis")
+      (stick 0)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (right	
+      (type "stickaxis")
+      (stick 0)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (accel	
+      (type "stickaxis")
+      (stick 0)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (brake	
+      (type "stickaxis")
+      (stick 0)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 0)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 0)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 0)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 0)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 0)
+      (button 12)
+    )
+  ) 
+  ; player 2 settings
+  (player-2
+    (name	 "Player 2")
+    ; optional
+    (lastKartId 0)
+    (left	
+      (type "stickaxis")
+      (stick 1)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (right	
+      (type "stickaxis")
+      (stick 1)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (accel	
+      (type "stickaxis")
+      (stick 1)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (brake	
+      (type "stickaxis")
+      (stick 1)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 1)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 1)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 1)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 1)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 1)
+      (button 12)
+    )
+  ) 
+  ; player 3 settings
+  (player-3
+    (name	 "Player 3")
+    ; optional
+    (lastKartId 0)
+    (left	
+      (type "stickaxis")
+      (stick 2)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (right	
+      (type "stickaxis")
+      (stick 2)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (accel	
+      (type "stickaxis")
+      (stick 2)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (brake	
+      (type "stickaxis")
+      (stick 2)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 2)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 2)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 2)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 2)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 2)
+      (button 12)
+    )
+  ) 
+  ; player 4 settings
+  (player-4
+    (name	 "Player 4")
+    ; optional
+    (lastKartId 0)
+    (left	
+      (type "stickaxis")
+      (stick 3)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (right	
+      (type "stickaxis")
+      (stick 3)
+      (axis 4)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (accel	
+      (type "stickaxis")
+      (stick 3)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 1)
+    )
+    (brake	
+      (type "stickaxis")
+      (stick 3)
+      (axis 5)
+      ; 0 is negative/left/up, 1 is positive/right/down
+      (direction 0)
+    )
+    (nitro	
+      (type "stickbutton")
+      (stick 3)
+      (button 11)
+    )
+    (drift	
+      (type "stickbutton")
+      (stick 3)
+      (button 10)
+    )
+    (rescue	
+      (type "stickbutton")
+      (stick 3)
+      (button 0)
+    )
+    (fire	
+      (type "stickbutton")
+      (stick 3)
+      (button 13)
+    )
+    (lookBack	
+      (type "stickbutton")
+      (stick 3)
+      (button 12)
+    )
+  ) 
+)

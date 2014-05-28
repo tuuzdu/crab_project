@@ -1,0 +1,2 @@
+set(crab_msgs_MESSAGE_FILES "/home/ubuntu/catkin_ws/src/crab_msgs/msg/LegJointsState.msg;/home/ubuntu/catkin_ws/src/crab_msgs/msg/LegsJointsState.msg;/home/ubuntu/catkin_ws/src/crab_msgs/msg/LegIKRequest.msg;/home/ubuntu/catkin_ws/src/crab_msgs/msg/LegPositionState.msg;/home/ubuntu/catkin_ws/src/crab_msgs/msg/BodyState.msg;/home/ubuntu/catkin_ws/src/crab_msgs/msg/BodyCommand.msg;/home/ubuntu/catkin_ws/src/crab_msgs/msg/GaitCommand.msg")
+set(crab_msgs_SERVICE_FILES "/home/ubuntu/catkin_ws/src/crab_msgs/srv/GetLegIKSolver.srv")
