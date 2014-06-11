@@ -1,6 +1,0 @@
-<package>
-  <description brief="hexapod_robot_model">hexapod_robot_model</description>
-  <depend package="gazebo" />
-  <author>me</author>
-  <license>BSD</license>
-</package>
